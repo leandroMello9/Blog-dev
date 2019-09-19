@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    padding : 0;
+    background-image: url(../img/programador.jpg);
+}
+.container div {
+    
+    display: flex;
+    box-sizing: border-box;
+    
+    
+}
+.container .cabeca {
+    height: 100px;
+    align-items: flex-start;
+    
+    background:rgba(0, 0, 0, 0.5);
+    
+}
+.container .cabeca a{
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+   
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+   
+}
+.cabeca img {
+    padding-top: 0.2%;
+    margin-left: 50px;
+}
+.container .corpo {
+    margin-top: 10%;
+    width:80%;
+    
+    margin: 0 auto;
+    height: 400px;
+    
+}
+.container .perna {
+    margin-top: 2%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background:rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.corpo .imagens {
+   flex-direction: column;
+  
+   
+}
+.imagens { 
+    width: 75%;
+    height: max-content 400px;
+}
+.imagens img{
+    margin: 3%;
+    display: flex;
+    float: left;
+    margin-left: 40%;
+}
+.perna img {
+    
+    margin-bottom: 30px;
+
+}
+.video {
+    height: 220px;
+    width: 400px;
+    margin-top: 4%;
+}
+
+.perna a {
+    margin: 2%;
+}
+.perna .info p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+.perna a {
+    margin-left: 8%;
+}

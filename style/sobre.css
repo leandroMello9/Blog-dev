@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-image: url(../img/programador.jpg)
+}
+.sobre {
+    color: white;
+    font-size: 2.0rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 600px;
+    margin-left: 20%;
+    background-color:rgba(1, 1, 1, 0.2);
+    
+}
+.conteudo  {
+    margin-top: 15%;
+    font-size: 1.0rem;
+   display: flex;
+   text-align: center;
+    
+}
